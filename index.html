@@ -1,55 +1,854 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>TrungNT</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" width="200px" /></span>
-							<h1>TrungNT</h1>
-							<p>Developer - Designer</p>
-						</header>
-						
-						<footer>
-							<ul class="icons">
-								<li><a href="mailto:nttrung93@gmail.com" class="fa-envelope-o">Mail</a></li>
-								<li><a href="https://www.instagram.com/nttrung93/" class="fa-instagram">Instagram</a></li>
-								<li><a href="https://www.facebook.com/trungnttb" class="fa-facebook">Facebook</a></li>
-							</ul>
-						</footer>
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; TrungNT</li><li>#KeepItMello</a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <![endif]-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Page title -->
+      <title>Always be yourself</title>
+      <!--[if lt IE 9]>
+      <script src="js/respond.js"></script>
+      <![endif]-->
+      <!-- Bootstrap Core CSS -->
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <!-- Icon fonts -->
+      <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="fonts/glyphicons/bootstrap-glyphicons.css" rel="stylesheet" type="text/css">
+      <!-- Google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,700i" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i" rel="stylesheet" type="text/css">
+      <!-- Style CSS -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- Plugins CSS -->
+      <link rel="stylesheet" href="css/plugins.css">
+      <!-- Color Style CSS -->
+      <link href="styles/lavender.css" rel="stylesheet">
+      <!-- Favicons-->
+      <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <!-- Switcher Only -->
+      <link rel="stylesheet" id="switcher-css" type="text/css" href="switcher/css/switcher.css" media="all" />
+      <!-- END Switcher Styles -->
+      <!-- Demo Examples (For Module #3) -->
+      <link rel="alternate stylesheet" type="text/css" href="styles/summer.css" title="summer" media="all" />
+      <link rel="alternate stylesheet" type="text/css" href="styles/serenity.css" title="serenity" media="all" />
+      <link rel="alternate stylesheet" type="text/css" href="styles/lavender.css" title="lavender" media="all" />
+      <!-- END Demo Examples -->
+   </head>
+   <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+      <!-- end demo_changer -->
+      <!-- Preloader -->
+      <div id="preloader">
+         <div class="spinner">
+            <div class="bounce1"></div>
+         </div>
+      </div>
+      <!-- Preloader ends --> 
+      <nav class="navbar navbar-custom navbar-fixed-top">
+         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display  --> 
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+               <i class="fa fa-bars"></i>
+               </button>
+               <div class="navbar-brand navbar-brand-centered page-scroll">
+                  <a href="#page-top">
+                     <!-- logo  -->  
+                     <img src="img/logo2.png" class="img-responsive" alt="">
+                  </a>
+               </div>
+               <!--/navbar-brand -->
+            </div>
+            <!--/navbar-header -->
+            <!-- Collect the nav links, forms, and other content for toggling  --> 
+            <div class="collapse navbar-collapse" id="navbar-brand-centered">
+               <ul class="nav navbar-nav page-scroll">
+                  <li><a href="#page-top">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#story">Story</a></li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right page-scroll">
+                  <li><a href="#event">Places</a></li>
+                  <li><a href="#gallery">Gallery</a></li>
+                  <li><a href="#rsvp">Love</a></li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse --> 
+         </div>
+         <!-- /.container --> 
+      </nav>
+      <!-- /navbar ends --> 
+      <!-- Ken burns Slideshow -->
+      <div class="slideshow">
+         <!-- images path in the CSS file --> 
+         <div class="slideshow-image"></div>
+         <div class="slideshow-image"></div>
+         <div class="slideshow-image"></div>
+         <div class="slideshow-image"></div>
+      </div>
+      <!-- section: intro--> 
+      <section id="intro" class="container-fluid">
+         <div class="intro-heading margin col-md-12 text-center">
+            <h1 class="text-light">Sim <span class="italic text-light"> &hearts; </span> Smile
+            </h1>
+            <h5 class="margin1 text-ornament">Always be yourself</h5>
+         </div>
+         <!-- /col-md-6-->
+      </section>
+      <!-- /section ends -->
+      <!-- Section: Save date-->
+      <section id="save-date">
+         <!-- parallax ornaments -->
+         <div class="ornament2 hidden-sm hidden-xs hidden-md" data-0="opacity:1;"
+            data-100="transform:translatex(0%);"
+            data-center-center="transform:translatex(90%);">
+            <!-- illustration path in the color template CSS -->
+         </div>
+         <div class="ornament3 hidden-sm hidden-xs hidden-md" data-0="opacity:1;"
+            data-100="transform:translatex(80%);"
+            data-center-center="transform:translatex(30%);">
+            <!-- illustration path in the color template CSS -->
+         </div>
+         <!-- /ornament3 -->
+         <!-- container -->
+         <div class="container">
+            <div class="row">
+               <!-- well starts-->
+               <div class="well col-md-10 col-md-offset-1 text-center">
+                  <div class="section-heading">
+                     <h2>Tháng Ba ‎22, ‎2019</h2>
+                     <!-- divider -->
+                     <div class="hr"></div>
+                  </div>
+                  <!--/section heading -->
+                  <h5 class="margin1">Quy Nhơn Biển Nhớ &hearts; Hoa Vàng Phú Yên</h5>
+                  <p>
+                     Vẻ đẹp của thiên nhiên ban tặng cho Việt Nam: biển xanh, cát trắng, nắng vàng và có bước chân của
+                     tuổi trẻ.</p>
+                  <p>
+                     Biển ở đây sạch, nước rất xanh, thiên nhiên hoang sơ hùng vĩ và đẹp vô cùng!
+                  </p>
+                  <!--<div class="margin1">-->
+                     <!--&lt;!&ndash; countdown tag &ndash;&gt;-->
+                     <!--<span id="countdown"></span>-->
+                     <!--&lt;!&ndash; edit the countdown in the main.js file&ndash;&gt;-->
+                  <!--</div>-->
+                  <!-- /margin1-->
+                  <div class="page-scroll">
+                     <a disabled="true" class="btn">&hearts;</a>
+                  </div>
+                  <!-- /page-scroll -->
+               </div>
+               <!-- /well-->
+            </div>
+            <!-- /row-->
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- /section ends -->
+      <!-- section:about-->
+      <section id="about" class="watercolor">
+         <!-- container -->
+         <div class="container">
+            <div class="section-heading">
+               <h2>About Me</h2>
+               <!-- divider -->
+               <div class="hr"></div>
+            </div>
+            <!-- /section-heading-->
+            <!-- Bride Info -->
+            <div class="col-md-10 col-md-offset-1">
+               <img src="img/abme.jpg" alt="" class="main-img img-responsive img-circle"/>
+               <h4 class="text-ornament">Sim Smile</h4>
+               <!--<h6 class="main-subheader">A Free-Spirited Woman</h6>-->
+               <!--<p>-->
+                  <!--Imperdiet interdum donec eget metus auguen unc vel lorem ispuet Ibu lum orci eget, viverra elit liquam erat volut pat phas ellus ac sodales Lorem ipsum dolor sit amet, consectetur adipisicing elit uasi quidem minus id iprum omnis.-->
+                  <!--Lorem ipsum dolor  Phas ellus ac sodales felis tiam.-->
+               <!--</p>-->
+               <!--&lt;!&ndash; small social-icons &ndash;&gt;	-->
+               <!--<div class="social-media smaller">-->
+                  <!--<a href="#" title=""><i class="fa fa-twitter"></i></a>-->
+                  <!--<a href="#" title=""><i class="fa fa-facebook"></i></a>-->
+                  <!--<a href="#" title=""><i class="fa fa-linkedin"></i></a>-->
+                  <!--<a href="#" title=""><i class="fa fa-pinterest"></i></a>-->
+                  <!--<a href="#" title=""><i class="fa fa-instagram"></i></a>-->
+               <!--</div>-->
+               <!-- /social-icons -->
+            </div>
+            <!-- /col-md-5 -->
+            <!-- Groom Info -->
+            <!--<div class="col-md-5 res-margin">-->
+               <!--<img src="img/groom.jpg" alt="" class="main-img img-responsive img-circle"/>-->
+               <!--<h4 class="text-ornament">Jonas</h4>-->
+               <!--<h6 class="main-subheader">Hopeless Romantic</h6>-->
+               <!--<p>-->
+                  <!--Imperdiet interdum donec eget metus auguen unc vel lorem ispuet Ibu lum orci eget, viverra elit liquam erat volut pat phas ellus ac sodales Lorem ipsum dolor sit amet, consectetur adipisicing elit uasi quidem minus id iprum omnis.-->
+                  <!--Lorem ipsum dolor  Phas ellus ac sodales felis tiam.-->
+               <!--</p>-->
+               <!--&lt;!&ndash; small social-icons &ndash;&gt;	-->
+               <!--<div class="social-media smaller">-->
+                  <!--<a href="#" title=""><i class="fa fa-twitter"></i></a>-->
+                  <!--<a href="#" title=""><i class="fa fa-facebook"></i></a>-->
+                  <!--<a href="#" title=""><i class="fa fa-linkedin"></i></a>-->
+                  <!--<a href="#" title=""><i class="fa fa-pinterest"></i></a>-->
+                  <!--<a href="#" title=""><i class="fa fa-instagram"></i></a>-->
+               <!--</div>-->
+               <!--&lt;!&ndash; /social-icons &ndash;&gt;-->
+            <!--</div>-->
+            <!-- /col-md-5 -->
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- /section ends -->
+      <!-- parallax ornament -->
+      <div class="ornament4 hidden-sm hidden-xs hidden-md" data-0="opacity:1;"
+         data--100-start="transform:translatex(90%);"
+         data-center-bottom="transform:translatex(0%);">
+         <!-- illustration path in the color template CSS -->
+      </div>
+      <!-- /ornament4 -->
+      <!-- section:story -->
+      <section id="story">
+         <div class="container">
+            <div class="section-heading">
+               <h2>Câu Chuyện</h2>
+               <!-- divider -->
+               <div class="hr"></div>
+            </div>
+            <!-- /section-heading -->
+            <!-- Polaroids -->
+            <div class="row">
+               <ul id="story-carousel" class="polaroids owl-carousel margin1">
+                  <!-- image1 -->
+                  <li class="polaroid-item"
+                      data-0="transform:translatey(0%);"
+                      data-center="transform:translatey(0%);transform:rotate(-4deg)" >
+                     <a href="img/day2-1.jpg" data-gal="prettyPhoto[gallery]">
+                        <img alt="" src="img/day2-1.jpg" class="img-responsive"/>
+                        <span>23/3/2019</span>
+                        <p>Kỳ Co</p>
+                     </a>
+                  </li>
+                  <!-- image2 -->
+                  <li class="polaroid-item" data-0="transform:translatey(-0%);"
+                      data-center="transform:translatey(0%);transform:rotate(8deg)">
+                     <a href="img/tthvtcx.jpg" data-gal="prettyPhoto[gallery]">
+                        <img alt="" src="img/tthvtcx.jpg" class="img-responsive"/>
+                        <span>24/3/2019</span>
+                        <p>Tôi thấy hoa vàng trên cỏ xanh</p>
+                     </a>
+                  </li>
+                  <!-- image3 -->
+                  <li class="polaroid-item" data-0="transform:translatey(0%);rotate:0;"
+                      data-center="transform:translatey(0%); transform:rotate(-2deg)" >
+                     <a href="img/baigio.jpg" data-gal="prettyPhoto[gallery]">
+                        <img alt="" src="img/baigio.jpg" class="img-responsive"/>
+                        <span>24/3/2019</span>
+                        <p>Bãi Xép</p>
+                     </a>
+                  </li>
+                  <!-- image4 -->
+                  <li class="polaroid-item" data-0="transform:translatey(0%);"
+                      data-center="transform:translatey(0%);transform:rotate(-12deg)">
+                     <a href="img/trungluong.jpg" data-gal="prettyPhoto[gallery]">
+                        <img alt="" src="img/trungluong.jpg" class="img-responsive"/>
+                        <span>25/3/2019</span>
+                        <p>Trung Lương</p>
+                     </a>
+                  </li>
+                  <!-- image5 -->
+                  <li class="polaroid-item" data-0="transform:translatey(0%);"
+                      data-center="transform:translatey(0%);transform:rotate(-12deg)">
+                     <a href="img/day2-2.jpg" data-gal="prettyPhoto[gallery]">
+                        <img alt="" src="img/day2-2.jpg" class="img-responsive"/>
+                        <span>23/3/2019</span>
+                        <p>Eo gió</p>
+                     </a>
+                  </li>
+                  <!-- /li polaroid --> 
+               </ul>
+               <!-- /ul-polaroids --> 
+            </div>
+            <!-- /row-fluid --> 
+         </div>
+         <!-- /container-->
+      </section>
+      <!-- /section ends -->
+      <!-- Section:attendants -->
+      <!--<section id="attendants" class="watercolor">-->
+         <!--&lt;!&ndash; parallax ornament &ndash;&gt;-->
+         <!--<div class="ornament5 hidden-sm hidden-xs hidden-md" data-0="opacity:1;"-->
+            <!--data&#45;&#45;100-start="transform:translatex(-10%);"-->
+            <!--data-center-bottom="transform:translatex(100%);">-->
+            <!--&lt;!&ndash; illustration path in the color template CSS &ndash;&gt;-->
+         <!--</div>-->
+         <!--<div class="container">-->
+            <!--<div class="section-heading">-->
+               <!--<h2>Bridemaids <span class="italic">&</span> Groomsman</h2>-->
+               <!--&lt;!&ndash; divider &ndash;&gt;-->
+               <!--<div class="hr"></div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash; /section-heading &ndash;&gt;-->
+            <!--&lt;!&ndash; /col-md-3 &ndash;&gt;-->
+            <!--<div class="col-md-12">-->
+               <!--<ul class="nav nav-tabs">-->
+                  <!--<li class="active"><a href="#bridemaids" data-toggle="tab">The Ladies</a></li>-->
+                  <!--<li><a href="#groomsman" data-toggle="tab">The Gentlemen</a></li>-->
+               <!--</ul>-->
+               <!--&lt;!&ndash;/nav nav-tabs &ndash;&gt;-->
+               <!--<div class="tabbable">-->
+                  <!--<div class="tab-content">-->
+                     <!--&lt;!&ndash; tab 1 &ndash;&gt;-->
+                     <!--<div class="tab-pane active in fade" id="bridemaids">-->
+                        <!--&lt;!&ndash; attendants carousel 1&ndash;&gt;-->
+                        <!--<div id="owl-attendants1" class="owl-carousel">-->
+                           <!--&lt;!&ndash; attendants member 1 &ndash;&gt;-->
+                           <!--<div class="attendants-wrap col-md-12">-->
+                              <!--<div class="member text-center">-->
+                                 <!--<div class="wrap">-->
+                                    <!--&lt;!&ndash; image &ndash;&gt;-->
+                                    <!--<img src="img/attendant1.jpg" alt="" class="img-circle img-responsive">-->
+                                    <!--&lt;!&ndash; Info &ndash;&gt;-->
+                                    <!--<div class="info">-->
+                                       <!--<h5 class="name">Jolie Smith</h5>-->
+                                       <!--<h4 class="description">Best Friend</h4>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /info &ndash;&gt;-->
+                                 <!--</div>-->
+                                 <!--&lt;!&ndash; /wrap &ndash;&gt;-->
+                              <!--</div>-->
+                              <!--&lt;!&ndash; / member &ndash;&gt;-->
+                           <!--</div>-->
+                           <!--&lt;!&ndash;/ attendants-wrap &ndash;&gt;-->
+                           <!--&lt;!&ndash; attendants member 2 &ndash;&gt;-->
+                           <!--<div class="attendants-wrap col-md-12">-->
+                              <!--<div class="member text-center">-->
+                                 <!--<div class="wrap">-->
+                                    <!--&lt;!&ndash; image &ndash;&gt;-->
+                                    <!--<img src="img/attendant2.jpg" alt="" class="img-circle img-responsive">-->
+                                    <!--&lt;!&ndash; Info &ndash;&gt;-->
+                                    <!--<div class="info">-->
+                                       <!--<h5 class="name">Maria Smith</h5>-->
+                                       <!--<h4 class="description">Sister</h4>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /info &ndash;&gt;-->
+                                 <!--</div>-->
+                                 <!--&lt;!&ndash; /wrap &ndash;&gt;-->
+                              <!--</div>-->
+                           <!--</div>-->
+                           <!--&lt;!&ndash;/ attendants-wrap &ndash;&gt;-->
+                           <!--&lt;!&ndash; attendants member 3 &ndash;&gt;-->
+                           <!--<div class="attendants-wrap col-md-12">-->
+                              <!--<div class="member text-center">-->
+                                 <!--<div class="wrap">-->
+                                    <!--&lt;!&ndash; image &ndash;&gt;-->
+                                    <!--<img src="img/attendant3.jpg" alt="" class="img-circle img-responsive">-->
+                                    <!--&lt;!&ndash; Info &ndash;&gt;-->
+                                    <!--<div class="info">-->
+                                       <!--<h5 class="name">Paula Larson</h5>-->
+                                       <!--<h4 class="description">Cousin</h4>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /info &ndash;&gt;-->
+                                 <!--</div>-->
+                                 <!--&lt;!&ndash; /wrap &ndash;&gt;-->
+                              <!--</div>-->
+                              <!--&lt;!&ndash; / member &ndash;&gt;-->
+                           <!--</div>-->
+                           <!--&lt;!&ndash;/ attendants-wrap &ndash;&gt;-->
+                           <!--&lt;!&ndash; attendants member 4&ndash;&gt;-->
+                           <!--<div class="attendants-wrap col-md-12">-->
+                              <!--<div class="member text-center">-->
+                                 <!--<div class="wrap">-->
+                                    <!--&lt;!&ndash; image &ndash;&gt;-->
+                                    <!--<img src="img/attendant4.jpg" alt="" class="img-circle img-responsive">-->
+                                    <!--&lt;!&ndash; Info &ndash;&gt;-->
+                                    <!--<div class="info">-->
+                                       <!--<h5 class="name">Anna Luise </h5>-->
+                                       <!--<h4 class="description">School Friend</h4>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /info &ndash;&gt;-->
+                                 <!--</div>-->
+                                 <!--&lt;!&ndash; /wrap &ndash;&gt;-->
+                              <!--</div>-->
+                              <!--&lt;!&ndash; / member &ndash;&gt;-->
+                           <!--</div>-->
+                           <!--&lt;!&ndash;/ attendants-wrap &ndash;&gt;-->
+                           <!--&lt;!&ndash; attendants member 5 &ndash;&gt;-->
+                           <!--<div class="attendants-wrap col-md-12">-->
+                              <!--<div class="member text-center">-->
+                                 <!--<div class="wrap">-->
+                                    <!--&lt;!&ndash; image &ndash;&gt;-->
+                                    <!--<img src="img/attendant5.jpg" alt="" class="img-circle img-responsive">-->
+                                    <!--&lt;!&ndash; Info &ndash;&gt;-->
+                                    <!--<div class="info">-->
+                                       <!--<h5 class="name">Jane Mars</h5>-->
+                                       <!--<h4 class="description">Aunt</h4>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /info &ndash;&gt;-->
+                                 <!--</div>-->
+                                 <!--&lt;!&ndash; /wrap &ndash;&gt;-->
+                              <!--</div>-->
+                              <!--&lt;!&ndash; / member &ndash;&gt;-->
+                           <!--</div>-->
+                           <!--&lt;!&ndash;/ attendants-wrap &ndash;&gt;-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; /owl-carousel &ndash;&gt;-->
+                     <!--</div>-->
+                     <!--&lt;!&ndash;/ tab 1 ends &ndash;&gt;-->
+                     <!--&lt;!&ndash; tab 2 &ndash;&gt;-->
+                     <!--<div class="tab-pane fade" id="groomsman">-->
+                        <!--&lt;!&ndash; Attendants carousel 2 &ndash;&gt;-->
+                        <!--<div id="owl-attendants2" class="owl-carousel">-->
+                           <!--&lt;!&ndash; attendants member 6 &ndash;&gt;-->
+                           <!--<div class="attendants-wrap col-md-12">-->
+                              <!--<div class="member text-center">-->
+                                 <!--<div class="wrap">-->
+                                    <!--&lt;!&ndash; image &ndash;&gt;-->
+                                    <!--<img src="img/attendant6.jpg" alt="" class="img-circle img-responsive">-->
+                                    <!--&lt;!&ndash; Info &ndash;&gt;-->
+                                    <!--<div class="info">-->
+                                       <!--<h5 class="name">Jonas Smith</h5>-->
+                                       <!--<h4 class="description">Best Friend</h4>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /info &ndash;&gt;-->
+                                 <!--</div>-->
+                                 <!--&lt;!&ndash; /wrap &ndash;&gt;-->
+                              <!--</div>-->
+                              <!--&lt;!&ndash; / member &ndash;&gt;-->
+                           <!--</div>-->
+                           <!--&lt;!&ndash;/ attendants-wrap &ndash;&gt;-->
+                           <!--&lt;!&ndash; attendants member 7 &ndash;&gt;-->
+                           <!--<div class="attendants-wrap col-md-12">-->
+                              <!--<div class="member text-center">-->
+                                 <!--<div class="wrap">-->
+                                    <!--&lt;!&ndash; image &ndash;&gt;-->
+                                    <!--<img src="img/attendant7.jpg" alt="" class="img-circle img-responsive">-->
+                                    <!--&lt;!&ndash; Info &ndash;&gt;-->
+                                    <!--<div class="info">-->
+                                       <!--<h5 class="name">Lucas Fonseca</h5>-->
+                                       <!--<h4 class="description">Cousin</h4>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /info &ndash;&gt;-->
+                                 <!--</div>-->
+                                 <!--&lt;!&ndash; /wrap &ndash;&gt;-->
+                              <!--</div>-->
+                           <!--</div>-->
+                           <!--&lt;!&ndash;/ attendants-wrap &ndash;&gt;-->
+                           <!--&lt;!&ndash; attendants member 8 &ndash;&gt;-->
+                           <!--<div class="attendants-wrap col-md-12">-->
+                              <!--<div class="member text-center">-->
+                                 <!--<div class="wrap">-->
+                                    <!--&lt;!&ndash; image &ndash;&gt;-->
+                                    <!--<img src="img/attendant8.jpg" alt="" class="img-circle img-responsive">-->
+                                    <!--&lt;!&ndash; Info &ndash;&gt;-->
+                                    <!--<div class="info">-->
+                                       <!--<h5 class="name">Paul Larson</h5>-->
+                                       <!--<h4 class="description">Business Partner</h4>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /info &ndash;&gt;-->
+                                 <!--</div>-->
+                                 <!--&lt;!&ndash; /wrap &ndash;&gt;-->
+                              <!--</div>-->
+                              <!--&lt;!&ndash; / member &ndash;&gt;-->
+                           <!--</div>-->
+                           <!--&lt;!&ndash;/ attendants-wrap &ndash;&gt;-->
+                           <!--&lt;!&ndash; attendants member 9 &ndash;&gt;-->
+                           <!--<div class="attendants-wrap col-md-12">-->
+                              <!--<div class="member text-center">-->
+                                 <!--<div class="wrap">-->
+                                    <!--&lt;!&ndash; image &ndash;&gt;-->
+                                    <!--<img src="img/attendant9.jpg" alt="" class="img-circle img-responsive">-->
+                                    <!--&lt;!&ndash; Info &ndash;&gt;-->
+                                    <!--<div class="info">-->
+                                       <!--<h5 class="name">John Doe </h5>-->
+                                       <!--<h4 class="description">Friend</h4>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /info &ndash;&gt;-->
+                                 <!--</div>-->
+                                 <!--&lt;!&ndash; /wrap &ndash;&gt;-->
+                              <!--</div>-->
+                              <!--&lt;!&ndash; / member &ndash;&gt;-->
+                           <!--</div>-->
+                           <!--&lt;!&ndash;/ attendants-wrap &ndash;&gt;-->
+                           <!--&lt;!&ndash; attendants member 10 &ndash;&gt;-->
+                           <!--<div class="attendants-wrap col-md-12">-->
+                              <!--<div class="member text-center">-->
+                                 <!--&lt;!&ndash; image &ndash;&gt;-->
+                                 <!--<img src="img/attendant10.jpg" alt="" class="img-circle img-responsive">-->
+                                 <!--<div class="wrap">-->
+                                    <!--&lt;!&ndash; Info &ndash;&gt;-->
+                                    <!--<div class="info">-->
+                                       <!--<h5 class="name">Marlon Mars</h5>-->
+                                       <!--<h4 class="description">Uncle</h4>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; /info &ndash;&gt;-->
+                                 <!--</div>-->
+                                 <!--&lt;!&ndash; /wrap &ndash;&gt;-->
+                              <!--</div>-->
+                              <!--&lt;!&ndash; / member &ndash;&gt;-->
+                           <!--</div>-->
+                           <!--&lt;!&ndash;/ attendants-wrap &ndash;&gt;-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; /owl-carousel &ndash;&gt;-->
+                     <!--</div>-->
+                     <!--&lt;!&ndash; /tab-pane &ndash;&gt;-->
+                  <!--</div>-->
+                  <!--&lt;!&ndash; /tab-content &ndash;&gt;-->
+               <!--</div>-->
+               <!--&lt;!&ndash; /tabbable &ndash;&gt;-->
+            <!--</div>-->
+            <!--&lt;!&ndash; /col-md-12 &ndash;&gt;-->
+         <!--</div>-->
+         <!--&lt;!&ndash; /.container &ndash;&gt;-->
+      <!--</section>-->
+      <!-- /Section ends -->
+      <!-- Section: Event-->	
+      <section id="event">
+         <div class="section-heading">
+            <h2>Địa danh</h2>
+            <!-- divider -->
+            <div class="hr"></div>
+         </div>
+         <!--/section-heading -->
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6" data--100-start="transform:translatey(-60%);"
+                  data-center-bottom="transform:translatey(20%);">
+                  <!-- image -->
+                  <img src="img/quynhon.JPG" alt="" class="img-photo rotate1 img-responsive">
+               </div>
+               <!-- paper well -->
+               <div class="well col-md-6">
+                  <h3>Quy Nhơn</h3>
+                  <p> Bọn mình đi theo tiếng gọi của anh google map để đến Kỳ Co :D, Cảnh đẹp quá các bạn ạ, quá nhiều
+                     góc để sống ảo nên ham hố chụp ảnh quá mà bị nhỡ đoàn đó hehe nên mình phải ghép đi
+                     với đoàn sau (chắc phải đợi tầm 1h ý huhu). Biển ở đây sạch ơi là sạch, màu xanh ngắt,
+                     có núi, có nắng vàng, có cát trắng, nói chung bị thích ý :D</p>
+                  <p>Tour mình đi chở xe điện lên trên EO GIÓ, lên trên đây cảnh đẹp, lại vô cùng nhiều góc để chụp, bậc cầu thang, đá và biển xanh trong vắt. </p>
+               </div>
+               <!-- /well -->
+            </div>
+            <!-- /row -->
+            <div class="row margin1">
+               <!-- paper well -->
+               <div class="well col-md-7">
+                  <h3>Phú Yên</h3>
+                  <p>
+                     Ghềnh Đá Đĩa - Biển ở đây đẹp, hoang
+                     sơ nhưng đi lại phải cẩn thận không bị té ngã nhé
+                  </p>
+                  <p>
+                     Tôi thấy hoa vàng trên cỏ xanh - Bãi Xép
+                     Chỗ này đẹp nè, cảnh ở đây được quay trong bộ phim Tôi thấy hoa vàng trên cỏ xanh,
+                     chụp ảnh thì max nhiều góc đẹp luôn, có xương rồng, có hoa vàng, có biển, có nắng vàng, nói chung là cứ bị đẹp ý hihi
+                  </p>
+               </div>
+               <!-- /well -->
+               <div class="col-md-5" data--100-start="transform:translatey(-60%);"
+                  data-center-bottom="transform:translatey(20%);">
+                  <!-- image -->
+                  <img src="img/phuyen.jpg" alt="" class="img-photo rotate2 img-responsive">
+               </div>
+               <!-- /col-md-5 -->
+            </div>
+            <!-- /row-->            
+         </div>
+         <!-- /container -->
+         <!-- row-fluid -->
+         <!--<div class="container-fluid" id="scroll-effect">-->
+            <!--<div class="col-lg-7 col-md-7 no-padding">-->
+               <!--&lt;!&ndash; map&ndash;&gt;-->
+               <!--<div id="map-canvas"></div>-->
+               <!--&lt;!&ndash; image1 &ndash;&gt;-->
+            <!--</div>-->
+            <!--&lt;!&ndash; paper well with effect &ndash;&gt;-->
+            <!--<div class="well col-lg-5 col-lg-offset-7 col-md-5 col-md-offset-7 "  data-start="left: 20%;" data-center="left:0%;">-->
+               <!--<div class="col-md-12 text-center">-->
+                  <!--<h3 class="date">June 19, 2019</h3>-->
+                  <!--<h6>6 PM - 11 PM</h6>-->
+                  <!--<h6>Westminster Cathedral, London UK</h6>-->
+                  <!--<hr>-->
+                  <!--<p>Ispuet Ibu lum orci eget, viverra elit liquam erat Elit uasi quidem minus id omnis a nibh fusce mollis imperdie tlorem ipuset phas ellus ac sodales Lorem ipsum dolor Phas ellus -->
+                  <!--</p>-->
+               <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash; /well &ndash;&gt;-->
+         <!--</div>-->
+         <!-- /row-fluid -->
+      </section>
+      <!-- Section ends -->
+      <!-- Section: Quote -->
+      <section id="quote" class="container-fluid">
+         <div class="col-md-7 col-centered" data-center-top="opacity: 1" data-center-bottom="opacity: 0">
+            <blockquote>
+               <h2>&hearts; Năm tháng thanh xuân rực rỡ &hearts; </h2>
+            </blockquote>
+         </div>
+         <!-- /col-md-7-->
+      </section>
+      <!-- /section ends -->
+      <!-- Section: Registry -->
+      <!--<section id="registry">-->
+         <!--<div class="section-heading text-center">-->
+            <!--<h2>Registry</h2>-->
+            <!--&lt;!&ndash; divider &ndash;&gt;-->
+            <!--<div class="hr"></div>-->
+         <!--</div>-->
+         <!--&lt;!&ndash;/section-heading &ndash;&gt;-->
+         <!--<div class="container text-center">-->
+            <!--<div class="row">-->
+               <!--&lt;!&ndash; Brand 1 &ndash;&gt;-->
+               <!--<div class="col-sm-6 col-md-3">-->
+                  <!--<a href="#"><img src="img/brand1.png" alt="" class="brand col-centered img-responsive"/></a>-->
+               <!--</div>-->
+               <!--&lt;!&ndash; Brand 2 &ndash;&gt;-->
+               <!--<div class="col-sm-6 col-md-3 res-margin">-->
+                  <!--<a href="#"><img src="img/brand2.png" alt="" class="brand col-centered img-responsive"/></a>-->
+               <!--</div>-->
+               <!--&lt;!&ndash; Brand 3 &ndash;&gt;-->
+               <!--<div class="col-sm-6 col-md-3 res-margin">-->
+                  <!--<a href="#"><img src="img/brand3.png" alt="" class="brand col-centered img-responsive"/></a>-->
+               <!--</div>-->
+               <!--&lt;!&ndash; Brand 4 &ndash;&gt;-->
+               <!--<div class="col-sm-6 col-md-3 res-margin">-->
+                  <!--<a href="#"><img src="img/brand4.png" alt="" class="brand col-centered img-responsive"/></a>-->
+               <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash; /row &ndash;&gt;		  -->
+         <!--</div>-->
+         <!--&lt;!&ndash; /container &ndash;&gt;-->
+      <!--</section>-->
+      <!-- Section ends --> 
+      <!-- Section: Gallery -->
+      <section id="gallery" class="watercolor">
+         <div class="section-heading text-center">
+            <h2>Thư viện</h2>
+            <!-- divider -->
+            <div class="hr"></div>
+         </div>
+         <!--/section-heading -->
+         <div class="container-fluid">
+            <!-- row fluid -->
+            <div class="row-fluid">
+               <!-- Navigation -->
+               <div class="text-center col-md-12">
+                  <ul class="nav nav-pills category text-center" role="tablist" id="gallerytab">
+                     <li class="active"><a href="#" data-toggle="tab" data-filter="*">All</a>
+                     <li><a href="#" data-toggle="tab" data-filter=".quynhonimg">Quy Nhơn</a></li>
+                     <li><a href="#" data-toggle="tab" data-filter=".phuyenimg">Phú Yên</a></li>
+                  </ul>
+               </div>
+               <!-- Gallery -->
+               <div class="col-md-12 gallery margin1">
+                  <div id="lightbox">
+                     <!-- Image 1 -->
+                     <div class="phuyenimg col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" src="img/gallery1.jpg" alt="">
+                              <a href="img/gallery1.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <span class="overlay-mask"></span>
+                              </a>							  							  
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Image 2 -->
+                     <div class="quynhonimg col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" src="img/gallery2.jpg" alt="">
+                              <a href="img/gallery2.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <span class="overlay-mask"></span>
+                              </a>							  							  
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Image 3 -->
+                     <div class="phuyenimg col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" src="img/gallery3.jpg" alt="">
+                              <a href="img/gallery3.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <span class="overlay-mask"></span>
+                              </a>							  							  
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Image 4 -->
+                     <div class="phuyenimg col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" src="img/gallery4.jpg" alt="">
+                              <a href="img/gallery4.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <span class="overlay-mask"></span>
+                              </a>							  							  
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Image 5 -->
+                     <div class="phuyenimg col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" src="img/gallery5.jpg" alt="">
+                              <a href="img/gallery5.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <span class="overlay-mask"></span>
+                              </a>							  							  
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Image 6 -->
+                     <div class="quynhonimg col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" src="img/gallery6.jpg" alt="">
+                              <a href="img/gallery6.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <span class="overlay-mask"></span>
+                              </a>							  							  
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Image 7 -->
+                     <div class="quynhonimg col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" src="img/gallery7.jpg" alt="">
+                              <a href="img/gallery7.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <span class="overlay-mask"></span>
+                              </a>							  							  
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- /lightbox-->
+               </div>
+               <!-- /col-lg-12 -->      
+            </div>
+            <!-- /row fluid --> 
+         </div>
+         <!-- /container fluid-->
+      </section>
+      <!-- /Section ends -->
+      <!-- Section: RSVP  -->
+      <section id="rsvp">
+         <!-- parallax ornament -->
+         <div class="ornament6 hidden-sm hidden-xs hidden-md" data-0="opacity:1;"
+            data-100="transform:translatex(90%);"
+            data-center-center="transform:translatex(30%);">
+            <!-- illustration path in the color template CSS -->
+         </div>
+         <!-- parallax ornament -->
+         <div class="ornament7 hidden-sm hidden-xs hidden-md" data-0="opacity:1;"
+            data-100="transform:translatex(0%);"
+            data-center-center="transform:translatex(90%);">
+            <!-- illustration path in the color template CSS -->
+         </div>
+         <div class="container">
+            <div class="section-heading">
+               <h2>Stand by me!</h2>
+               <!-- divider -->
+               <div class="hr"></div>
+            </div>
+            <!-- /section-heading -->
+            <div class="col-lg-5">
+               <!-- image -->
+               <img src="img/rsvp.jpg" alt="" class="margin1 img-photo rotate2 img-responsive">
+            </div>
+            <!-- well -->
+            <div class="col-lg-7 well">
+               <div id="rsvp_form">
+                  <div class="form-group text-center">
+                     <!-- name field-->
+                     <h5>&hearts; Thanh xuân &hearts;<span class="required">*</span></h5>
+                     <input type="text" name="name" class="form-control input-field" value="Cùng nhau băng qua bao đại dương ..." style="text-align: center;font-size: 18px;font-weight: bold;">
+                     <input type="text" name="name" class="form-control input-field" value="... cùng nhau đi vượt ngàn con đường" style="text-align: center;font-size: 18px;font-weight: bold;">
+                     <input type="text" name="name" class="form-control input-field" value="Phiêu lãng như áng mây trời..." style="text-align: center;font-size: 18px;font-weight: bold;">
+                     <input type="text" name="name" class="form-control input-field" value="... xanh ngát như giấc mơ ta !!!!!" style="text-align: center;font-size: 18px;font-weight: bold;">
+                     <!-- checkbox attending-->
+                     <!--<input id="yes" type="radio" value="Accepts with pleasure" name="attending"  />-->
+                     <!--<label for="yes" class="side-label">Accepts with pleasure</label>-->
+                     <!--<input id="no" type="radio" value="Declines with regrets" name="attending" />-->
+                     <!--<label for="no" class="side-label">Declines with regrets</label>-->
+                     <!-- if attending=yes then the form bellow will show -->
+                     <!--<div class="accept-form">-->
+                        <!--&lt;!&ndash; guests checkbox &ndash;&gt;-->
+                        <!--<h5>Are you bringing guests?<span class="required">*</span></h5>-->
+                        <!--<input id="bringing-guests" type="radio" value="yes" name="guest" /><label for="bringing-guests" class="side-label">Yes</label>-->
+                        <!--<input type="radio" id="just-me" value="no" name="guest" /><label for="just-me" class="side-label">No</label><br>-->
+                        <!--&lt;!&ndash; guest name text field&ndash;&gt;-->
+                        <!--<div id="guest-name">-->
+                           <!--<h5>Guest Names</h5>-->
+                           <!--<input type="text" name="guests" class="form-control input-field"> -->
+                        <!--</div>-->
+                        <!--&lt;!&ndash;/guest-name &ndash;&gt;-->
+                     <!--</div>-->
+                     <!--/accept form -->
+                     <!-- if attending=no then only the message box will show -->
+                     <!--<div class="message-comments">-->
+                        <!--<h5>Message</h5>-->
+                        <!--<textarea name="message" id="message-box" class="textarea-field form-control" rows="3" ></textarea>-->
+                     <!--</div>-->
+                     <!--/message-comments -->
+                     <div class="text-center">
+                        <button type="submit" id="submit_rsvp" value="Submit" class="btn" disabled>&hearts;</button>
+                     </div>
+                     <!-- /col-md-12 -->
+                  </div>
+                  <!-- /Form-group -->
+                  <!-- Contact results -->
+                  <div id="contact_results"></div>
+               </div>
+               <!-- /rsvp form-->
+            </div>
+            <!-- /well-->
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- /Section ends -->
+      <!-- Footer -->		
+      <footer>
+         <div class="container">
+            <div class="col-md-12 text-center">
+               <!-- Footer logo -->
+               <img src="img/logo2.png" alt="" class="center-block img-responsive" style="max-height: 130px;">
+            </div>
+            <!-- /col-md-12 -->        
+            <!-- Credits-->
+            <div class="credits col-md-12 text-center">
+               <p>&hearts; Sim Smile © 2019</p>
+               <!-- Go To Top Link -->
+               <div class="page-scroll hidden-sm hidden-xs">
+                  <a href="#page-top" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+               </div>
+            </div>
+            <!-- /credits -->
+         </div>
+         <!-- /.container -->
+      </footer>
+      <!-- /footer ends -->
+      <!-- Core JavaScript Files -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Main Js -->
+      <script src="js/main.js"></script>
+      <!-- RSVP form -->
+      <script src="js/rsvp.js"></script>
+      <!--Other Plugins -->
+      <script src="js/plugins.js"></script>
+      <!-- Prefix free CSS -->
+      <script src="js/prefixfree.js"></script>
+      <!-- maps-->
+      <script src="js/map.js"></script>
+      <!-- Bootstrap Select Tool (For Module #4) -->
+      <script src="switcher/js/bootstrap-select.js"></script>
+      <!-- UI jQuery (For Module #5 and #6) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js" type="text/javascript"></script>
+      <!-- All Scripts & Plugins -->
+      <script src="switcher/js/dmss.js"></script>	
+   </body>
 </html>
